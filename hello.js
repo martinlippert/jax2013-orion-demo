@@ -18,5 +18,5 @@ var day = today.getDate();
 var year = today.getFullYear();
 var node = document.getElementById("date");
 if (node) {
-	node.innerHTML = "<p>You are running this super duper sample on " + month + "/" + day + "/" + year + "</p>";
+	node.innerHTML = "<p>You are running this sample on " + month + "/" + day + "/" + year + "</p>";
 }
